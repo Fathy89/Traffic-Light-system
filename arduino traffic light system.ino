@@ -18,6 +18,8 @@ void loop()
  {digitalWrite(yellowled,HIGH) ;
    delay(500); 
   digitalWrite(yellowled,LOW); 
+  if(i==2)
+    continue; 
    delay(500); 
  }
   digitalWrite(redled,LOW); 
